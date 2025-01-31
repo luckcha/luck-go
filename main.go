@@ -29,7 +29,7 @@ func returnAllProduct(w http.ResponseWriter, r *http.Request) {
 func handleRequests() {
 	http.HandleFunc("/Product", returnAllProduct)
 	http.HandleFunc("/", homepage)
-	http.ListenAndServe("localhost:8080", nil)
+	http.ListenAndServe("localhost:10000", nil)
 
 }
 
