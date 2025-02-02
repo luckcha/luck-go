@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: book-dealer-pod
+spec:
+  containers:
+    - name: book-dealer-container
+      image: dockluck336/my-go-app
+      ports:
+        - containerPort: 10000

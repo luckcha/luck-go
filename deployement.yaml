@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: book-dealer-deployment
+spec:
+  replicas: 3  
+  selector:
+    matchLabels:
+      app: book-dealer
+  template:
+    metadata:
+      labels:
+        app: book-dealer
+    spec:
+      containers:
+        - name: book-dealer-container
+          image: dockluck336/my-go-app 
+          ports:
+            - containerPort: 10000
+---
