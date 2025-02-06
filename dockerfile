@@ -18,6 +18,6 @@ WORKDIR /root/
 
 COPY --from=builder /app/myapp .
 
-EXPOSE 8080
+EXPOSE 10000
 
 CMD ["./myapp"]
