@@ -57,10 +57,10 @@ func main() {
 	}
 	Production = []Dealer{
 		{ID: 101, Name: "Jack", Location: "Minnisota", sale: 455658.5},
-		{ID: 101, Name: "Luther", Location: "New York", sale: 358858.8},
-		{ID: 101, Name: "Garry", Location: "London", sale: 625895.8},
-		{ID: 101, Name: "Adrian", Location: "Paris", sale: 9427158.5},
-		{ID: 101, Name: "Mickel", Location: "Washington", sale: 575754.4},
+		{ID: 102, Name: "Luther", Location: "New York", sale: 358858.8},
+		{ID: 103, Name: "Garry", Location: "London", sale: 625895.8},
+		{ID: 104, Name: "Adrian", Location: "Paris", sale: 9427158.5},
+		{ID: 105, Name: "Mickel", Location: "Washington", sale: 575754.4},
 	}
 
 	handleRequests()
