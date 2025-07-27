@@ -60,7 +60,8 @@ func main() {
 		{ID: 102, Name: "Luther", Location: "New York", sale: 358858.8},
 		{ID: 103, Name: "Garry", Location: "London", sale: 625895.8},
 		{ID: 104, Name: "Adrian", Location: "Paris", sale: 9427158.5},
-		{ID: 105, Name: "Mickel", Location: "Washington", sale: 575754.4},
+		{ID: 105, Name: "Mickel", Location: "Washington", sale: 575754.4}
+		{ID: 106, Name: "Virat", Location: "Delhi", sale: 84584.86},
 	}
 
 	handleRequests()
