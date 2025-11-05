@@ -54,6 +54,7 @@ func main() {
 		{Book_Name: "Hindi", Publication: "Mittal", Chapter: 10, Price: 350.00},
 		{Book_Name: "Economy", Publication: "Oxford", Chapter: 17, Price: 300.00},
 		{Book_Name: "Geography", Publication: "Mittal", Chapter: 19, Price: 250.00},
+		{Book_Name: "Physics", Publication: "Mittal", Chapter: 15, Price: 850.00},
 	}
 	Production = []Dealer{
 		{ID: 101, Name: "Jack", Location: "Minnisota", sale: 455658.5},
